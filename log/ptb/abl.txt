@@ -1,0 +1,23 @@
+All vocabulary size:  10000
+Traceback (most recent call last):
+  File "embedding/TESTLM.py", line 154, in <module>
+    [tf.reshape(Y, [-1])], [tf.ones([BATCH_SIZE*(WIN_NUM)], dtype=tf.float32)])
+  File "/home/roee/env/gpu/local/lib/python2.7/site-packages/tensorflow/contrib/legacy_seq2seq/python/ops/seq2seq.py", line 1090, in sequence_loss_by_example
+    labels=target, logits=logit)
+  File "/home/roee/env/gpu/local/lib/python2.7/site-packages/tensorflow/python/ops/nn_ops.py", line 1879, in sparse_softmax_cross_entropy_with_logits
+    precise_logits, labels, name=name)
+  File "/home/roee/env/gpu/local/lib/python2.7/site-packages/tensorflow/python/ops/gen_nn_ops.py", line 4547, in _sparse_softmax_cross_entropy_with_logits
+    labels=labels, name=name)
+  File "/home/roee/env/gpu/local/lib/python2.7/site-packages/tensorflow/python/framework/op_def_library.py", line 787, in _apply_op_helper
+    op_def=op_def)
+  File "/home/roee/env/gpu/local/lib/python2.7/site-packages/tensorflow/python/framework/ops.py", line 2958, in create_op
+    set_shapes_for_outputs(ret)
+  File "/home/roee/env/gpu/local/lib/python2.7/site-packages/tensorflow/python/framework/ops.py", line 2209, in set_shapes_for_outputs
+    shapes = shape_func(op)
+  File "/home/roee/env/gpu/local/lib/python2.7/site-packages/tensorflow/python/framework/ops.py", line 2159, in call_with_requiring
+    return call_cpp_shape_fn(op, require_shape_fn=True)
+  File "/home/roee/env/gpu/local/lib/python2.7/site-packages/tensorflow/python/framework/common_shapes.py", line 627, in call_cpp_shape_fn
+    require_shape_fn)
+  File "/home/roee/env/gpu/local/lib/python2.7/site-packages/tensorflow/python/framework/common_shapes.py", line 691, in _call_cpp_shape_fn_impl
+    raise ValueError(err.message)
+ValueError: Dimensions must be equal, but are 200 and 500 for 'sequence_loss_by_example/SparseSoftmaxCrossEntropyWithLogits/SparseSoftmaxCrossEntropyWithLogits' (op: 'SparseSoftmaxCrossEntropyWithLogits') with input shapes: [200,10001], [500].

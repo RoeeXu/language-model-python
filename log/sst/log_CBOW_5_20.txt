@@ -1,0 +1,41 @@
+2018-02-25 17:50:10.290872: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2018-02-25 17:50:12.425993: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1030] Found device 0 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.582
+pciBusID: 0000:04:00.0
+totalMemory: 10.91GiB freeMemory: 10.46GiB
+2018-02-25 17:50:12.426016: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:04:00.0, compute capability: 6.1)
+All vocabulary size:  17064
+Epoch size:  20
+Iterations:  31371
+iter: 0	loss: 6.628	valid loss/ppl: 7.348 / 15340.682	test loss/ppl: 7.367 / 15342.950
+iter: 1000	loss: 4.477	valid loss/ppl: 4.070 / 564.748	test loss/ppl: 4.084 / 566.363
+iter: 2000	loss: 3.276	valid loss/ppl: 3.844 / 447.018	test loss/ppl: 3.870 / 451.185
+iter: 3000	loss: 3.351	valid loss/ppl: 3.842 / 443.836	test loss/ppl: 3.854 / 447.801
+iter: 4000	loss: 2.878	valid loss/ppl: 3.926 / 489.322	test loss/ppl: 3.945 / 497.439
+iter: 5000	loss: 2.727	valid loss/ppl: 4.096 / 588.819	test loss/ppl: 4.100 / 584.846
+iter: 6000	loss: 2.229	valid loss/ppl: 4.263 / 712.240	test loss/ppl: 4.271 / 719.686
+iter: 7000	loss: 1.430	valid loss/ppl: 4.423 / 857.887	test loss/ppl: 4.450 / 885.050
+iter: 8000	loss: 1.522	valid loss/ppl: 4.597 / 1050.562	test loss/ppl: 4.615 / 1069.558
+iter: 9000	loss: 1.254	valid loss/ppl: 4.770 / 1314.878	test loss/ppl: 4.798 / 1339.276
+iter: 10000	loss: 1.138	valid loss/ppl: 4.987 / 1686.369	test loss/ppl: 5.007 / 1700.660
+iter: 11000	loss: 1.393	valid loss/ppl: 5.110 / 1991.810	test loss/ppl: 5.107 / 2012.024
+iter: 12000	loss: 1.124	valid loss/ppl: 5.325 / 2573.970	test loss/ppl: 5.327 / 2568.191
+iter: 13000	loss: 1.594	valid loss/ppl: 5.485 / 3137.187	test loss/ppl: 5.489 / 3141.330
+iter: 14000	loss: 1.235	valid loss/ppl: 5.611 / 3761.115	test loss/ppl: 5.632 / 3851.301
+iter: 15000	loss: 0.830	valid loss/ppl: 5.723 / 4397.768	test loss/ppl: 5.757 / 4551.394
+iter: 16000	loss: 1.037	valid loss/ppl: 5.925 / 5649.821	test loss/ppl: 5.959 / 5794.430
+iter: 17000	loss: 0.886	valid loss/ppl: 6.065 / 6785.300	test loss/ppl: 6.096 / 6986.875
+iter: 18000	loss: 0.710	valid loss/ppl: 6.172 / 7937.473	test loss/ppl: 6.212 / 8312.345
+iter: 19000	loss: 1.444	valid loss/ppl: 6.311 / 9434.476	test loss/ppl: 6.324 / 9689.850
+iter: 20000	loss: 0.900	valid loss/ppl: 6.445 / 11500.898	test loss/ppl: 6.452 / 11804.854
+iter: 21000	loss: 0.784	valid loss/ppl: 6.624 / 14267.891	test loss/ppl: 6.643 / 14456.760
+iter: 22000	loss: 0.792	valid loss/ppl: 6.717 / 16380.792	test loss/ppl: 6.730 / 16880.850
+iter: 23000	loss: 1.056	valid loss/ppl: 6.863 / 19924.097	test loss/ppl: 6.854 / 19780.717
+iter: 24000	loss: 0.963	valid loss/ppl: 7.019 / 23887.441	test loss/ppl: 7.029 / 24260.263
+iter: 25000	loss: 1.190	valid loss/ppl: 7.076 / 27715.679	test loss/ppl: 7.090 / 28367.592
+iter: 26000	loss: 0.652	valid loss/ppl: 7.189 / 31961.149	test loss/ppl: 7.229 / 32920.324
+iter: 27000	loss: 1.050	valid loss/ppl: 7.347 / 39167.409	test loss/ppl: 7.335 / 40500.254
+iter: 28000	loss: 0.732	valid loss/ppl: 7.466 / 45198.917	test loss/ppl: 7.473 / 46815.148
+iter: 29000	loss: 1.193	valid loss/ppl: 7.525 / 52852.175	test loss/ppl: 7.574 / 55530.334
+iter: 30000	loss: 1.446	valid loss/ppl: 7.613 / 60846.632	test loss/ppl: 7.653 / 63344.020
+iter: 31000	loss: 0.795	valid loss/ppl: 7.746 / 71060.607	test loss/ppl: 7.791 / 74670.552

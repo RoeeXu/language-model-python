@@ -1,0 +1,83 @@
+2018-02-26 10:14:12.419028: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2018-02-26 10:14:13.513613: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1030] Found device 0 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.582
+pciBusID: 0000:03:00.0
+totalMemory: 10.91GiB freeMemory: 10.75GiB
+2018-02-26 10:14:13.729943: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1030] Found device 1 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.582
+pciBusID: 0000:04:00.0
+totalMemory: 10.91GiB freeMemory: 10.46GiB
+2018-02-26 10:14:13.730985: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Device peer to peer matrix
+2018-02-26 10:14:13.731027: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1051] DMA: 0 1 
+2018-02-26 10:14:13.731039: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1061] 0:   Y Y 
+2018-02-26 10:14:13.731047: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1061] 1:   Y Y 
+2018-02-26 10:14:13.731059: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:03:00.0, compute capability: 6.1)
+2018-02-26 10:14:13.731070: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:1) -> (device: 1, name: GeForce GTX 1080 Ti, pci bus id: 0000:04:00.0, compute capability: 6.1)
+All vocabulary size:  93703
+Epoch size:  1
+Iterations:  64304
+iter: 0	logppl: 11.337	valid ppl: 84588.762	test ppl: 84543.646
+iter: 1000	logppl: 6.720	valid ppl: 879.330	test ppl: 898.398
+iter: 2000	logppl: 5.278	valid ppl: 682.734	test ppl: 696.990
+iter: 3000	logppl: 6.326	valid ppl: 576.190	test ppl: 587.731
+iter: 4000	logppl: 6.518	valid ppl: 516.606	test ppl: 531.128
+iter: 5000	logppl: 6.142	valid ppl: 469.446	test ppl: 482.910
+iter: 6000	logppl: 6.079	valid ppl: 440.606	test ppl: 455.688
+iter: 7000	logppl: 7.118	valid ppl: 420.142	test ppl: 435.405
+iter: 8000	logppl: 6.575	valid ppl: 401.075	test ppl: 414.649
+iter: 9000	logppl: 5.180	valid ppl: 390.350	test ppl: 404.910
+iter: 10000	logppl: 5.499	valid ppl: 377.837	test ppl: 394.375
+iter: 11000	logppl: 5.115	valid ppl: 365.717	test ppl: 382.309
+iter: 12000	logppl: 6.742	valid ppl: 359.027	test ppl: 375.891
+iter: 13000	logppl: 4.958	valid ppl: 350.927	test ppl: 366.275
+iter: 14000	logppl: 4.656	valid ppl: 344.474	test ppl: 361.324
+iter: 15000	logppl: 6.488	valid ppl: 340.144	test ppl: 358.338
+iter: 16000	logppl: 6.522	valid ppl: 329.886	test ppl: 348.342
+iter: 17000	logppl: 5.917	valid ppl: 331.059	test ppl: 350.782
+iter: 18000	logppl: 6.279	valid ppl: 323.842	test ppl: 344.238
+iter: 19000	logppl: 5.768	valid ppl: 318.608	test ppl: 336.765
+iter: 20000	logppl: 6.194	valid ppl: 318.914	test ppl: 336.404
+iter: 21000	logppl: 4.207	valid ppl: 313.730	test ppl: 329.303
+iter: 22000	logppl: 5.355	valid ppl: 311.113	test ppl: 326.551
+iter: 23000	logppl: 6.871	valid ppl: 309.841	test ppl: 326.675
+iter: 24000	logppl: 6.800	valid ppl: 307.743	test ppl: 325.284
+iter: 25000	logppl: 5.005	valid ppl: 302.920	test ppl: 320.385
+iter: 26000	logppl: 6.267	valid ppl: 301.563	test ppl: 318.493
+iter: 27000	logppl: 6.782	valid ppl: 300.485	test ppl: 316.087
+iter: 28000	logppl: 5.647	valid ppl: 299.931	test ppl: 316.380
+iter: 29000	logppl: 5.293	valid ppl: 296.917	test ppl: 313.226
+iter: 30000	logppl: 5.771	valid ppl: 295.814	test ppl: 313.148
+iter: 31000	logppl: 6.411	valid ppl: 294.289	test ppl: 311.851
+iter: 32000	logppl: 5.573	valid ppl: 294.102	test ppl: 311.450
+iter: 33000	logppl: 5.834	valid ppl: 294.074	test ppl: 298.329
+iter: 34000	logppl: 6.813	valid ppl: 297.367	test ppl: 291.413
+iter: 35000	logppl: 7.021	valid ppl: 299.432	test ppl: 286.923
+iter: 36000	logppl: 5.385	valid ppl: 300.447	test ppl: 282.375
+iter: 37000	logppl: 7.895	valid ppl: 299.189	test ppl: 280.422
+iter: 38000	logppl: 5.888	valid ppl: 299.775	test ppl: 278.632
+iter: 39000	logppl: 5.557	valid ppl: 299.377	test ppl: 275.149
+iter: 40000	logppl: 4.749	valid ppl: 298.844	test ppl: 273.089
+iter: 41000	logppl: 7.352	valid ppl: 303.011	test ppl: 273.913
+iter: 42000	logppl: 6.234	valid ppl: 302.224	test ppl: 270.792
+iter: 43000	logppl: 5.618	valid ppl: 304.048	test ppl: 271.242
+iter: 44000	logppl: 5.469	valid ppl: 304.714	test ppl: 267.989
+iter: 45000	logppl: 5.403	valid ppl: 303.266	test ppl: 266.737
+iter: 46000	logppl: 5.476	valid ppl: 301.843	test ppl: 264.901
+iter: 47000	logppl: 6.131	valid ppl: 301.707	test ppl: 263.384
+iter: 48000	logppl: 5.153	valid ppl: 301.240	test ppl: 261.903
+iter: 49000	logppl: 4.270	valid ppl: 301.930	test ppl: 262.112
+iter: 50000	logppl: 5.112	valid ppl: 304.777	test ppl: 262.104
+iter: 51000	logppl: 5.146	valid ppl: 302.980	test ppl: 260.624
+iter: 52000	logppl: 5.630	valid ppl: 302.442	test ppl: 260.014
+iter: 53000	logppl: 4.917	valid ppl: 302.082	test ppl: 258.643
+iter: 54000	logppl: 5.905	valid ppl: 301.671	test ppl: 257.550
+iter: 55000	logppl: 5.260	valid ppl: 301.975	test ppl: 256.633
+iter: 56000	logppl: 4.901	valid ppl: 301.889	test ppl: 256.044
+iter: 57000	logppl: 5.395	valid ppl: 303.550	test ppl: 255.873
+iter: 58000	logppl: 5.552	valid ppl: 305.615	test ppl: 255.926
+iter: 59000	logppl: 4.902	valid ppl: 304.456	test ppl: 254.953
+iter: 60000	logppl: 4.852	valid ppl: 303.444	test ppl: 255.098
+iter: 61000	logppl: 5.279	valid ppl: 302.911	test ppl: 253.304
+iter: 62000	logppl: 5.218	valid ppl: 305.227	test ppl: 254.436
+iter: 63000	logppl: 6.404	valid ppl: 304.118	test ppl: 252.321
+iter: 64000	logppl: 5.162	valid ppl: 302.431	test ppl: 252.074

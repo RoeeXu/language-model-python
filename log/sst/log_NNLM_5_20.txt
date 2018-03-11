@@ -1,0 +1,41 @@
+2018-02-25 17:50:10.172001: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2018-02-25 17:50:12.417761: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1030] Found device 0 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.582
+pciBusID: 0000:04:00.0
+totalMemory: 10.91GiB freeMemory: 10.69GiB
+2018-02-25 17:50:12.417793: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:04:00.0, compute capability: 6.1)
+All vocabulary size:  17064
+Epoch size:  20
+Iterations:  31371
+iter: 0	loss: 9.715	valid ppl: 16184.529	test ppl: 16212.852
+iter: 1000	loss: 7.237	valid ppl: 738.848	test ppl: 749.576
+iter: 2000	loss: 5.928	valid ppl: 552.152	test ppl: 558.494
+iter: 3000	loss: 6.627	valid ppl: 476.455	test ppl: 480.242
+iter: 4000	loss: 6.683	valid ppl: 435.012	test ppl: 439.571
+iter: 5000	loss: 5.586	valid ppl: 417.595	test ppl: 422.166
+iter: 6000	loss: 5.297	valid ppl: 434.034	test ppl: 436.946
+iter: 7000	loss: 5.148	valid ppl: 436.712	test ppl: 441.878
+iter: 8000	loss: 5.267	valid ppl: 458.449	test ppl: 462.483
+iter: 9000	loss: 5.754	valid ppl: 505.656	test ppl: 508.220
+iter: 10000	loss: 4.673	valid ppl: 534.199	test ppl: 537.228
+iter: 11000	loss: 4.751	valid ppl: 598.513	test ppl: 600.498
+iter: 12000	loss: 4.383	valid ppl: 660.828	test ppl: 662.088
+iter: 13000	loss: 4.474	valid ppl: 717.152	test ppl: 719.397
+iter: 14000	loss: 4.830	valid ppl: 858.409	test ppl: 858.945
+iter: 15000	loss: 4.138	valid ppl: 922.641	test ppl: 924.240
+iter: 16000	loss: 4.121	valid ppl: 1039.569	test ppl: 1043.606
+iter: 17000	loss: 3.646	valid ppl: 1224.331	test ppl: 1224.868
+iter: 18000	loss: 3.361	valid ppl: 1329.558	test ppl: 1331.616
+iter: 19000	loss: 3.898	valid ppl: 1526.956	test ppl: 1531.253
+iter: 20000	loss: 3.246	valid ppl: 1781.587	test ppl: 1783.748
+iter: 21000	loss: 3.287	valid ppl: 1950.766	test ppl: 1947.696
+iter: 22000	loss: 2.754	valid ppl: 2229.652	test ppl: 2236.637
+iter: 23000	loss: 3.140	valid ppl: 2534.200	test ppl: 2528.776
+iter: 24000	loss: 2.762	valid ppl: 2790.416	test ppl: 2794.975
+iter: 25000	loss: 3.264	valid ppl: 3317.804	test ppl: 3322.527
+iter: 26000	loss: 2.623	valid ppl: 3600.287	test ppl: 3586.325
+iter: 27000	loss: 2.616	valid ppl: 4019.293	test ppl: 4037.267
+iter: 28000	loss: 2.781	valid ppl: 4649.087	test ppl: 4647.029
+iter: 29000	loss: 3.327	valid ppl: 5011.747	test ppl: 4995.623
+iter: 30000	loss: 3.482	valid ppl: 5642.206	test ppl: 5670.030
+iter: 31000	loss: 2.445	valid ppl: 6405.755	test ppl: 6393.486
